@@ -541,7 +541,11 @@
               }
             },
             "P": {
-              "color": "#232323"
+              "color": "#232323",
+              "text-align": "right"
+            },
+            "H1": {
+              "text-align": "right"
             }
           },
           "_name": "header8",
