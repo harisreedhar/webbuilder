@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Site-08-15_1520",
-    "currentPage": "index.html",
+    "currentPage": "page1.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -1150,7 +1150,7 @@
             }
           },
           "_name": "content2",
-          "_customHTML": "<section class=\"mbr-section article content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#cccccc\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-multiline mbr-article>\n                <blockquote><b>Hello, </b>My name is Harisreedhar SS. I was born in Thiruvananthapuram,India. I love creating visual effects and 3d stuffs.Cinema 4d and after effects are my software of choice. Bluefox creation is my online portfolio and 3D/visual effects resource site.With this website I aiming to post my personal explorations in 3D, sharing digital renders and producing exciting tutorials for 3d design and visual effects community.\n</blockquote><blockquote><b>\n</b><span style=\"font-size: 1.09rem;\">The easiest ways to get hold of me is through email: </span><b style=\"font-size: 1.09rem;\">bluefoxcreationz@gmail.com</b></blockquote>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-multiline mbr-article>\n                <blockquote><b>Hello, </b>My name is Harisreedhar SS. I was born in Thiruvananthapuram,India. I love creating visual effects and 3d stuffs.Cinema 4d and after effects are my software of choice. Bluefox creation is my online portfolio and 3D/visual effects resource site.With this website I aiming to post my personal explorations in 3D, sharing digital renders and producing exciting tutorials for 3d design and visual effects community.\n</blockquote><blockquote><b>\n</b><span style=\"font-size: 1.09rem;\">The easiest ways to get hold of me is through email: </span><b style=\"font-size: 1.09rem;\">bluefoxcreationz@gmail.com</b></blockquote>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "rzea7bqsPw",
           "_anchor": "content2-i",
           "_protectedParams": [],
