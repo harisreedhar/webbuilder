@@ -23,6 +23,9 @@
   
   {% include head.html %}
     {% seo %}
+ 
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+  
   
 </head>
 <body>
@@ -241,6 +244,23 @@
   <script src="assets/gallery/script.js"></script>
   <script src="assets/formoid/formoid.min.js"></script>
   
+  
+  <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+<script>
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#edeff5",
+      "text": "#838391"
+    },
+    "button": {
+      "background": "transparent",
+      "text": "#4b81e8",
+      "border": "#4b81e8"
+    }
+  }
+});
+</script>
   
 </body>
 </html>
