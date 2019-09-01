@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Site-08-15_1520",
-    "currentPage": "index.html",
+    "currentPage": "about.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -34,7 +34,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.10.7",
     "siteFonts": [],
-    "uniqCompNum": 23,
+    "uniqCompNum": 30,
     "versionPublish": "4.10.7",
     "screenshot": "screenshot.png",
     "cookiesAlert": {
@@ -46,11 +46,14 @@
       "opacity": "99",
       "text": "We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>."
     },
-    "siteUrl": "",
+    "siteUrl": "https://bluefoxcreation.com",
     "sitemapSwitcherAuto": "on",
     "favicon": "",
     "noImageResize": "",
-    "google-analytics": ""
+    "google-analytics": "",
+    "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
+    "robotsSwitcher": "",
+    "sitemapSwitcher": "on"
   },
   "pages": {
     "index.html": {
@@ -1142,11 +1145,11 @@
         }
       ]
     },
-    "page1.html": {
+    "about.html": {
       "settings": {
         "meta_descr": "Web Generator Description",
         "title": "About",
-        "order": 1
+        "order": 2
       },
       "components": [
         {
