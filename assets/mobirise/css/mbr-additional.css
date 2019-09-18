@@ -2040,28 +2040,29 @@ body {
 .cid-rzdfAZhS5M .media-container-row .row-copirayt p {
   width: 100%;
 }
-.cid-rzeMTVPV1V {
+.cid-rCr6ekbNMv {
   padding-top: 120px;
   padding-bottom: 120px;
-  background-color: #ffffff;
+  background-color: #f3f4f6;
 }
-.cid-rzeMTVPV1V .line {
-  background-color: #767676;
-  color: #767676;
-  align: center;
-  height: 2px;
-  margin: 0 auto;
+.cid-rCr6ekbNMv .testimonial-text {
+  font-style: italic;
+  color: #676767;
+  font-weight: 300;
 }
-.cid-rzeMTVPV1V .section-text {
-  padding: 2rem 0;
-  text-align: left;
+.cid-rCr6ekbNMv .mbr-author-name {
+  font-weight: bold;
+  color: #232;
 }
-.cid-rzeMTVPV1V .inner-container {
-  margin: 0 auto;
+.cid-rCr6ekbNMv .mbr-author-desc {
+  color: #232;
 }
-@media (max-width: 768px) {
-  .cid-rzeMTVPV1V .inner-container {
-    width: 100% !important;
+@media (max-width: 991px) {
+  .cid-rCr6ekbNMv .mbr-figure,
+  .cid-rCr6ekbNMv img {
+    max-height: 300px;
+    width: auto;
+    margin: auto;
   }
 }
 .cid-rzcY3fdjvX .navbar {

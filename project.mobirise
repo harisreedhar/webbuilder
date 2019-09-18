@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Site-08-15_1520",
-    "currentPage": "index.html",
+    "currentPage": "about.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -34,7 +34,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.10.7",
     "siteFonts": [],
-    "uniqCompNum": 30,
+    "uniqCompNum": 24,
     "versionPublish": "4.10.7",
     "screenshot": "screenshot.png",
     "cookiesAlert": {
@@ -1157,35 +1157,40 @@
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            ".line": {
-              "background-color": "@lineColor",
-              "color": "@lineColor",
-              "align": "center",
-              "height": "2px",
-              "margin": "0 auto"
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
             },
-            ".section-text": {
-              "padding": "2rem 0",
-              "text-align": "left"
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
             },
-            ".inner-container": {
-              "margin": "0 auto"
+            ".testimonial-text": {
+              "font-style": "italic",
+              "color": "#676767",
+              "font-weight": "300"
             },
-            "@media (max-width: 768px)": {
-              ".inner-container": {
-                "width": "100% !important"
+            ".mbr-author-name": {
+              "font-weight": "bold",
+              "color": "#232"
+            },
+            ".mbr-author-desc": {
+              "color": "#232"
+            },
+            "@media (max-width: 991px)": {
+              ".mbr-figure, img": {
+                "max-height": "300px",
+                "width": "auto",
+                "margin": "auto"
               }
             }
           },
-          "_name": "content9",
-          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"68\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#767676\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\" mbr-text>Hello, My name is Harisreedhar SS. I was born in Thiruvananthapuram,India. I love creating visual effects and 3d stuffs.Cinema 4d and after effects are my software of choice. Bluefox creation is my online portfolio and 3D/visual effects resource site.With this website I aiming to post my personal explorations in 3D, sharing digital renders and producing exciting tutorials for 3d design and visual effects community. \n<br><br><div>The easiest ways to get hold of me is through email: bluefoxcreationz@gmail.com</div></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
-          "_cid": "rzeMTVPV1V",
-          "_anchor": "content9-m",
+          "_name": "testimonials3",
+          "_customHTML": "<section class=\"testimonials3\" group=\"Testimonials\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n      <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n      <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n\n      <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"85\">\n\n      <fieldset type=\"background\" name=\"bg\" parallax>\n        <input type=\"image\" title=\"Background Image\" value=\"../_images/background5.jpg\">\n        <input type=\"color\" title=\"Background Color\" value=\"#f3f4f6\" selected>\n        <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n      </fieldset>\n      <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n      <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n      <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"media-content px-3 align-self-center mbr-white py-2\">\n                <p class=\"mbr-text testimonial-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".testimonial-text\">I am a VFX &amp; 3D Artist,currently just creating 3D art as a hobby and I live in Thiruvananthapuram (India).Bluefoxcreation is my online portfolio and 3D/visual effects resource site.With this website I aiming to post my personal explorations in 3D, sharing digital renders and producing tutorials for 3d design and visual effects community. \n<br>\n<br>The easiest ways to get hold of me is through email: bluefoxcreationz@gmail.com</p>\n                <p class=\"mbr-author-name pt-4 mb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-author-name\">Hari Sreedhar .S .S</p>\n                <p class=\"mbr-author-desc mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-author-desc\">3D &amp; VFX Artist</p>\n            </div>\n\n            <div class=\"mbr-figure pl-lg-5\" mbr-style=\"{'width':mediaSize + '%'}\">\n              <img src=\"@PROJECT_PATH@/assets/images/dsc-0660y-739x739.png\" alt title>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rCr6ekbNMv",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {},
+          "_anchor": "testimonials3-n"
         },
         {
           "alias": false,
