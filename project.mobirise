@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Site-08-15_1520",
-    "currentPage": "index.html",
+    "currentPage": "gallery.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -2898,6 +2898,19 @@
               },
               {
                 "tags": "Responsive",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019924-2017182019-9-4-20-49-37.jpg",
+                "playVideo": true,
+                "videoUrl": "https://youtu.be/RtuqQVwKc7M",
+                "image": "@PROJECT_PATH@/assets/images/dentoo-1921x1080.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/dentoo-1921x1080-800x450.jpeg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": true
+              },
+              {
+                "tags": "Responsive",
                 "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019917-204062019-9-4-21-5-43.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/8B2T8BCIbOc",
@@ -2920,7 +2933,7 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Type caption here",
-                "active": true
+                "active": false
               }
             ]
           }
