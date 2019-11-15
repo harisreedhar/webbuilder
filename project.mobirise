@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Site-08-15_1520",
-    "currentPage": "gallery.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -34,7 +34,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.10.7",
     "siteFonts": [],
-    "uniqCompNum": 23,
+    "uniqCompNum": 59,
     "versionPublish": "4.10.7",
     "screenshot": "screenshot.png",
     "cookiesAlert": {
@@ -673,7 +673,7 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Type caption here",
-                "active": true
+                "active": false
               },
               {
                 "tags": "Responsive",
@@ -690,16 +690,16 @@
               },
               {
                 "tags": "Creative",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise20191015-182242019-10-5-18-31-1.jpg",
+                "playVideo": true,
+                "videoUrl": "https://youtu.be/-cYCCQ_MHI4",
                 "image": "@PROJECT_PATH@/assets/images/postcentileo-1920x1080.jpeg",
                 "thumb": "@PROJECT_PATH@/assets/images/postcentileo-1920x1080-800x450.jpeg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Type caption here",
-                "active": false
+                "active": true
               },
               {
                 "tags": "Animated",
@@ -2907,7 +2907,7 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Type caption here",
-                "active": true
+                "active": false
               },
               {
                 "tags": "Responsive",
@@ -2934,6 +2934,19 @@
                 "customStyle1": "display-7",
                 "caption": "Type caption here",
                 "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise20191015-182242019-10-5-18-31-1.jpg",
+                "playVideo": true,
+                "videoUrl": "https://youtu.be/-cYCCQ_MHI4",
+                "image": "@PROJECT_PATH@/assets/images/dentoo-1921x1080.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/dentoo-1921x1080-800x450.jpeg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": true
               }
             ]
           }
