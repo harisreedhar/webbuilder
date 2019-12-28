@@ -1795,71 +1795,23 @@ body {
   text-align: center;
   color: #ffffff;
 }
-.cid-rzd0L0saaM {
-  padding-top: 0px;
-  padding-bottom: 0px;
-  background-color: #ffffff;
+.cid-rLVyLznSqe {
+  background: #ffffff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: linear-gradient(0deg, #ffffff, #efefef);
 }
-.cid-rzd0L0saaM .mbr-slider .carousel-control {
-  background: #1b1b1b;
+.cid-rLVyLznSqe .video-block {
+  margin: auto;
 }
-.cid-rzd0L0saaM .mbr-slider .carousel-control-prev {
-  left: 0;
-  margin-left: 2.5rem;
-}
-.cid-rzd0L0saaM .mbr-slider .carousel-control-next {
-  right: 0;
-  margin-right: 2.5rem;
-}
-.cid-rzd0L0saaM .mbr-slider .modal-body .close {
-  background: #1b1b1b;
-}
-.cid-rzd0L0saaM .mbr-gallery-item > div::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background: #c1c1c1;
-  opacity: 0;
-  -webkit-transition: 0.2s opacity ease-in-out;
-  transition: 0.2s opacity ease-in-out;
-  background: linear-gradient(to left, #c1c1c1, #45505b) !important;
-}
-.cid-rzd0L0saaM .mbr-gallery-item > div:hover .mbr-gallery-title::before {
-  background: transparent !important;
-}
-.cid-rzd0L0saaM .mbr-gallery-item > div:hover:before {
-  opacity: 0.6 !important;
-}
-.cid-rzd0L0saaM .mbr-gallery-title {
-  font-size: .9em;
-  position: absolute;
-  display: block;
-  width: 100%;
-  bottom: 0;
-  padding: 1rem;
-  color: #fff;
-  z-index: 2;
-}
-.cid-rzd0L0saaM .mbr-gallery-title:before {
-  content: " ";
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  position: absolute;
-  background: #c1c1c1 !important;
-  opacity: 0.6;
-  -webkit-transition: 0.2s background ease-in-out;
-  transition: 0.2s background ease-in-out;
-  background: linear-gradient(to left, #c1c1c1, #45505b) !important;
+@media (max-width: 768px) {
+  .cid-rLVyLznSqe .video-block {
+    width: 100% !important;
+  }
 }
 .cid-rzdenyLpf8 {
   padding-top: 60px;
-  padding-bottom: 15px;
+  padding-bottom: 60px;
   background-color: #ffffff;
 }
 .cid-rzdenyLpf8 .mbr-section-subtitle {
@@ -3427,10 +3379,18 @@ body {
 .cid-rzcY3fdjvX .dropdown-item:hover {
   color: #c1c1c1 !important;
 }
+.cid-rFbh0tEU2u {
+  padding-top: 90px;
+  padding-bottom: 0px;
+  background-color: #efefef;
+}
+.cid-rFbh0tEU2u P {
+  color: #767676;
+}
 .cid-rFaGJ4ySmX {
-  padding-top: 120px;
-  padding-bottom: 75px;
-  background-color: #333333;
+  padding-top: 0px;
+  padding-bottom: 60px;
+  background-color: #ffffff;
 }
 .cid-rFaGJ4ySmX .mbr-slider .carousel-control {
   background: #1b1b1b;
@@ -3463,7 +3423,7 @@ body {
   background: transparent !important;
 }
 .cid-rFaGJ4ySmX .mbr-gallery-item > div:hover:before {
-  opacity: 0.7 !important;
+  opacity: 0.6 !important;
 }
 .cid-rFaGJ4ySmX .mbr-gallery-title {
   font-size: .9em;
@@ -3484,7 +3444,7 @@ body {
   z-index: -1;
   position: absolute;
   background: #554346 !important;
-  opacity: 0.7;
+  opacity: 0.6;
   -webkit-transition: 0.2s background ease-in-out;
   transition: 0.2s background ease-in-out;
   background: linear-gradient(to left, #554346, #45505b) !important;
