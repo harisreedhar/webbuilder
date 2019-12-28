@@ -1797,12 +1797,11 @@ body {
 }
 .cid-rLVyLznSqe {
   background: #ffffff;
-  padding-top: 60px;
-  padding-bottom: 60px;
   background: linear-gradient(0deg, #ffffff, #efefef);
 }
 .cid-rLVyLznSqe .video-block {
   margin: auto;
+  width: 100% !important;
 }
 @media (max-width: 768px) {
   .cid-rLVyLznSqe .video-block {
