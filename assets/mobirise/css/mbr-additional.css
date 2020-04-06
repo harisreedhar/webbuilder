@@ -1804,20 +1804,16 @@ body {
   padding-bottom: 60px;
   background-color: #efefef;
 }
-.cid-rVoh4fgWNu {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background-image: url("../../../assets/images/qww2-1920x1080-800x450.jpeg");
+.cid-rVolvwoSJz {
+  padding-top: 90px;
+  padding-bottom: 90px;
 }
-@media (min-width: 992px) {
-  .cid-rVoh4fgWNu .mbr-figure {
-    padding-left: 4rem;
-  }
+.cid-rVolvwoSJz P {
+  color: #767676;
 }
-@media (max-width: 991px) {
-  .cid-rVoh4fgWNu .mbr-figure {
-    padding-top: 3rem;
-  }
+.cid-rVolvwoSJz .mbr-text,
+.cid-rVolvwoSJz .mbr-section-btn {
+  color: #4f4943;
 }
 .cid-rzdenyLpf8 {
   padding-top: 60px;
